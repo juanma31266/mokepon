@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+
+
+.title{
+
+    color:#A2CA71;
+    font-size: 52px;
+    font-family: "Pixelify Sans", sans-serif;
+ 
+}
+
+.subtitle{
+color: white;  
+font-family: "Pixelify Sans", sans-serif;
+}    
+#seleccionar-personaje { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-de-mokepon  {
+width: 150px;
+height: 150px;
+background-color: #BEDC74;
+padding: 10px;
+box-sizing: border-box;
+margin: 10px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;
+font-family: "Pixelify Sans", sans-serif;
+font-size: 20px;
+
+}
+.tarjeta-de-mokepon img{
+    height: 70px;
+}
+
+
+#boton-personaje {
+width: 150px;
+height: 50px;
+background-color: #F6E96B;
+color: #387F39;
+box-sizing: border-box;
+margin: 10px;
+border-radius: 20px;
+font-family: "Pixelify Sans", sans-serif;
+font-size: 20px;
+border: none;
+
+}
+
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+  
+
+
+.tarjeta-de-mokepon {
+    border: 2px solid #ccc; /* Borde de la tarjeta */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 10px;
+    text-align: center; /* Centra el texto e imagen */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.tarjeta-de-mokepon:hover  {
+    background-color: rgba(67, 209, 1, 0.3); /* Color de fondo al hacer hover */
+}
+
+#seleccionar-ataque{
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "pixelify sans", sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+
+}
+
+.botones-ataque{
+    width: 96px;
+    height: 48px;
+    margin: 10px;
+    background-color: #F6E96B;
+    color: #387F39;
+    border-radius: 5px;
+    border: #ccc solid;
+}
+#mensajes{
+    width: 220px;
+    height: 92px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:  rgba(67, 209, 1, 0.3); 
+    display: flex;
+    align-items: center;
+    border: solid white;
+    color: white;
+    font-size: 25px;   
+    font-family: "Jersey 15", sans-serif;
+   flex-direction: column;     
+}
+#boton-reiniciar{
+    background-color: #F6E96B;
+    color: #387F39;
+    border-radius: 5px;
+    border: none;
+   
+
+}
+  
+    
+ 
+
+ 
+
+.parrafovidas{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    color: #ccc;
+    grid-template-columns: 100px  100px;
+    background-color:rgba(67, 209, 1, 0.3);  
+    margin: 10px;
+    
+}
+#vidas-jugador, #vidas-enemigo {
+    font-size: 32px;
+    color: white;
+}
+  
+   
+  
+
+
+body{
+background: url(assets/06c7f055633a52bb8d819594f9a729f4.png) #ccc no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+background-color: #387F39;
+   
+}
+
+input {
+    display: none; 
+}
+input:checked + label {
+    background-color: rgba(67, 209, 1, 0.3);
+}
+@media (max-width: 360px) {
+
+.boxes{
+    flex-direction: column;
+}
+
+}
+#botonesdeataque{
+    flex-direction: column;
+}
